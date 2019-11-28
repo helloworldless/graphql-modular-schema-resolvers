@@ -1,6 +1,3 @@
-// https://github.com/paltamadura/graphql-modular-schema-resolvers
-// Based on https://blog.apollographql.com/modularizing-your-graphql-schema-code-d7f71d5ed5f2
-
 const { typeDefs: User, resolvers: userResolvers } = require("./user");
 const { typeDefs: Post, resolvers: postResolvers } = require("./post");
 const { ApolloServer, makeExecutableSchema } = require("apollo-server");
